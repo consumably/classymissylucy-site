@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClassyMissyLucy</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #fdf7f9;
+      color: #333;
+    }
+    header {
+      background-color: #f8e9ef;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      color: #c71585;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Shop+Luxury+Brands') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #f8e9ef;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ClassyMissyLucy</h1>
+    <p>Luxury Bags, Clothing & Accessories</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="https://poshmark.com/closet/classymissylucy?sort_by=best_match&all_size=true&my_size=false" target="_blank">Poshmark</a>
+  </nav>
+  <div class="hero">
+    Discover Your New Favorite Look
+  </div>
+  <section id="shop" class="section">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Michael+Kors+Bag" alt="Michael Kors Bag" />
+        <p>Michael Kors Bag</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Tory+Burch+Bracelet" alt="Tory Burch Bracelet" />
+        <p>Tory Burch Bracelet</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Kate+Spade+Purse" alt="Kate Spade Purse" />
+        <p>Kate Spade Purse</p>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <h2>About ClassyMissyLucy</h2>
+    <p>We offer carefully selected luxury items from top brands like Michael Kors, Tory Burch, Kate Spade, and Coach. All products are authentic, stylish, and ready to elevate your wardrobe.</p>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Follow us on <a href="https://poshmark.com/closet/classymissylucy" target="_blank">Poshmark</a> or email us at classymissylucy@email.com</p>
+  </section>
+  <footer>
+    &copy; 2025 ClassyMissyLucy. All rights reserved.
+  </footer>
+</body>
+</html>
